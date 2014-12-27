@@ -51,6 +51,8 @@ There are two example scripts, contained in the folders exampleScripts_Ca and ex
     $ cd exampleScripts_Syn
     $ stochgenesis main_m.g
 
+Note: To run properly, this code also requires a noise file called ../matlab/psdnoise_n1_fc1.txt. This file is large, but can upload it upon request. Without this file, it still should be possible to run the script and view the resulting element tree containin Markov synapses.
+
 ### 3. Example Code
 To see example code for implementing stochastic voltage gated ion channels, see exampleScripts_Ca/markov_chan.g
 
