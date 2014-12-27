@@ -91,5 +91,5 @@ GENESIS functions for object manipulation:
 
 
 ### 5. Notes
--- stochgenesis was historically called cagenesis
--- GENESIS scripting functions are under development and still need to be customized to your given simulation. If you are interested in contributing, please email stanleyd a_t bu d0t edu.
+- stochgenesis was historically called cagenesis
+- GENESIS scripting functions are under development and still need to be customized to your given simulation. If you are interested in contributing, please email stanleyd a_t bu d0t edu.
