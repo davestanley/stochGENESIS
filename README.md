@@ -78,7 +78,7 @@ of Biomedical Engineering.
 
 
 ### 5. New GENEIS functions (under development)
-GENESIS functions for object manipulation:
+GENESIS functions for object manipulation. These are located in the funcs_GENESIS folder.
 
 - **stochastify:** Function to search through element trees and automatically convert deterministic channels to stochastic channels (assumes existing library of Markovian ion channels)
 
