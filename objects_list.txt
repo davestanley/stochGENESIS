@@ -1,0 +1,26 @@
+
+
+
+-----------
+New GENESIS Objects
+-----------
+
+View by running > listobjects
+
+GENvgpores: 	Voltage-gated ion channels with stochastic gating; supports
+		variable numbers of gates ( 0-4 activating gates and 0-1 inactivating
+		gates); HH-based rate constants
+
+GENgap:		4-state gap junction with stochastic gating
+
+GENsynpores:	Generalized transmitter-gated synapses with stochastic gating
+
+GENtabchan:	Same as GENvgpores, but rate constants are based on tables
+
+GEN_Gprotein:	Stochastic simulations of G-protein concentrations
+
+*Note*: I am using Chow and White's algorithm to govern the evolution of the
+markov chain. See Mino et al 2002 - Comparison of algorithms for
+the simulation of action potentials with stochastic sodium channels, Annals
+of Biomedical Engineering.
+

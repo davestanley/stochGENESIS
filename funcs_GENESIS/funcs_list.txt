@@ -1,0 +1,26 @@
+
+---------------------
+New GENESIS Functions
+---------------------
+
+GENESIS functions for object manipulation:*
+stochastify:		Function to search through element trees and
+			automatically convert deterministic channels
+			to stochastic channels (uses libraries)
+
+volumeconnect_general:	Generalized version of volumeconnect command to work
+			with either deterministic or stochastic synapses
+
+markov_synapse:		Specialized function to automatically flip
+			deterministic synapses to stochastic synapses
+			(can pass to volumeconnect_general).
+
+spike_synapse:		Creates a deterministic synaptic connection. Can pass
+			to volumeconnect_general to cause it to behave as
+			the standard volumeconnect command.
+
+gapconnect_general: 	Similar to volumeconnect_general, except for forming
+			gap junction connections.
+
+
+
